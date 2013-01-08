@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37235E761662BCCB00F33BF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37235E751662BCCB00F33BF1 /* Cocoa.framework */; };
+		37999F3C169C296000ED2DCF /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F35169C296000ED2DCF /* NSValueTransformer+TransformerKit.h */; };
+		37999F3D169C296000ED2DCF /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F35169C296000ED2DCF /* NSValueTransformer+TransformerKit.h */; };
+		37999F3E169C296000ED2DCF /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37999F36169C296000ED2DCF /* NSValueTransformer+TransformerKit.m */; };
+		37999F3F169C296000ED2DCF /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37999F36169C296000ED2DCF /* NSValueTransformer+TransformerKit.m */; };
+		37999F40169C296000ED2DCF /* TKImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F37169C296000ED2DCF /* TKImageTransformers.h */; };
+		37999F41169C296000ED2DCF /* TKImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F37169C296000ED2DCF /* TKImageTransformers.h */; };
+		37999F42169C296000ED2DCF /* TKImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 37999F38169C296000ED2DCF /* TKImageTransformers.m */; };
+		37999F43169C296000ED2DCF /* TKImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 37999F38169C296000ED2DCF /* TKImageTransformers.m */; };
+		37999F44169C296000ED2DCF /* TKStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F39169C296000ED2DCF /* TKStringTransformers.h */; };
+		37999F45169C296000ED2DCF /* TKStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F39169C296000ED2DCF /* TKStringTransformers.h */; };
+		37999F46169C296000ED2DCF /* TKStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 37999F3A169C296000ED2DCF /* TKStringTransformers.m */; };
+		37999F47169C296000ED2DCF /* TKStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 37999F3A169C296000ED2DCF /* TKStringTransformers.m */; };
+		37999F48169C296000ED2DCF /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F3B169C296000ED2DCF /* TransformerKit.h */; };
+		37999F49169C296000ED2DCF /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37999F3B169C296000ED2DCF /* TransformerKit.h */; };
+		37999F4B169C298B00ED2DCF /* TransformerKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 37999F4A169C298B00ED2DCF /* TransformerKit-Prefix.pch */; };
+		37999F4C169C298B00ED2DCF /* TransformerKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 37999F4A169C298B00ED2DCF /* TransformerKit-Prefix.pch */; };
+		37A80DF2150B8CE800B9B6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A80DF1150B8CE800B9B6E1 /* Foundation.framework */; };
+		37EADF7C150B8DAB001D3588 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EADF7B150B8DAB001D3588 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37235E741662BCCB00F33BF1 /* libTransformerKit-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTransformerKit-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37235E751662BCCB00F33BF1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		37235E781662BCCB00F33BF1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		37235E791662BCCB00F33BF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37235E7A1662BCCB00F33BF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37999F34169C294500ED2DCF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		37999F35169C296000ED2DCF /* NSValueTransformer+TransformerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+TransformerKit.h"; path = "TransformerKit/NSValueTransformer+TransformerKit.h"; sourceTree = SOURCE_ROOT; };
+		37999F36169C296000ED2DCF /* NSValueTransformer+TransformerKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+TransformerKit.m"; path = "TransformerKit/NSValueTransformer+TransformerKit.m"; sourceTree = SOURCE_ROOT; };
+		37999F37169C296000ED2DCF /* TKImageTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKImageTransformers.h; path = TransformerKit/TKImageTransformers.h; sourceTree = SOURCE_ROOT; };
+		37999F38169C296000ED2DCF /* TKImageTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKImageTransformers.m; path = TransformerKit/TKImageTransformers.m; sourceTree = SOURCE_ROOT; };
+		37999F39169C296000ED2DCF /* TKStringTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKStringTransformers.h; path = TransformerKit/TKStringTransformers.h; sourceTree = SOURCE_ROOT; };
+		37999F3A169C296000ED2DCF /* TKStringTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKStringTransformers.m; path = TransformerKit/TKStringTransformers.m; sourceTree = SOURCE_ROOT; };
+		37999F3B169C296000ED2DCF /* TransformerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformerKit.h; path = TransformerKit/TransformerKit.h; sourceTree = SOURCE_ROOT; };
+		37999F4A169C298B00ED2DCF /* TransformerKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TransformerKit-Prefix.pch"; path = "TransformerKit/TransformerKit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		37A80DEE150B8CE800B9B6E1 /* libTransformerKit-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTransformerKit-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A80DF1150B8CE800B9B6E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A80DFF150B8CE800B9B6E1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		37EADF7B150B8DAB001D3588 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37235E711662BCCB00F33BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37235E761662BCCB00F33BF1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A80DEB150B8CE800B9B6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EADF7C150B8DAB001D3588 /* CoreData.framework in Frameworks */,
+				37A80DF2150B8CE800B9B6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37235E771662BCCB00F33BF1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37235E781662BCCB00F33BF1 /* AppKit.framework */,
+				37235E791662BCCB00F33BF1 /* CoreData.framework */,
+				37235E7A1662BCCB00F33BF1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		37A80DE3150B8CE800B9B6E1 = {
+			isa = PBXGroup;
+			children = (
+				37999F34169C294500ED2DCF /* README.md */,
+				37A80DF3150B8CE800B9B6E1 /* TransformerKit */,
+				37A80DF0150B8CE800B9B6E1 /* Frameworks */,
+				37A80DEF150B8CE800B9B6E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A80DEF150B8CE800B9B6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A80DEE150B8CE800B9B6E1 /* libTransformerKit-ios.a */,
+				37235E741662BCCB00F33BF1 /* libTransformerKit-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A80DF0150B8CE800B9B6E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A80DF1150B8CE800B9B6E1 /* Foundation.framework */,
+				37EADF7B150B8DAB001D3588 /* CoreData.framework */,
+				37A80DFF150B8CE800B9B6E1 /* SenTestingKit.framework */,
+				37235E751662BCCB00F33BF1 /* Cocoa.framework */,
+				37235E771662BCCB00F33BF1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A80DF3150B8CE800B9B6E1 /* TransformerKit */ = {
+			isa = PBXGroup;
+			children = (
+				37999F35169C296000ED2DCF /* NSValueTransformer+TransformerKit.h */,
+				37999F36169C296000ED2DCF /* NSValueTransformer+TransformerKit.m */,
+				37999F37169C296000ED2DCF /* TKImageTransformers.h */,
+				37999F38169C296000ED2DCF /* TKImageTransformers.m */,
+				37999F39169C296000ED2DCF /* TKStringTransformers.h */,
+				37999F3A169C296000ED2DCF /* TKStringTransformers.m */,
+				37999F3B169C296000ED2DCF /* TransformerKit.h */,
+				37A80DF4150B8CE800B9B6E1 /* Supporting Files */,
+			);
+			name = TransformerKit;
+			path = KVCMapping;
+			sourceTree = "<group>";
+		};
+		37A80DF4150B8CE800B9B6E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37999F4A169C298B00ED2DCF /* TransformerKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37235E721662BCCB00F33BF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37999F3D169C296000ED2DCF /* NSValueTransformer+TransformerKit.h in Headers */,
+				37999F41169C296000ED2DCF /* TKImageTransformers.h in Headers */,
+				37999F45169C296000ED2DCF /* TKStringTransformers.h in Headers */,
+				37999F49169C296000ED2DCF /* TransformerKit.h in Headers */,
+				37999F4C169C298B00ED2DCF /* TransformerKit-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A80DEC150B8CE800B9B6E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37999F3C169C296000ED2DCF /* NSValueTransformer+TransformerKit.h in Headers */,
+				37999F40169C296000ED2DCF /* TKImageTransformers.h in Headers */,
+				37999F44169C296000ED2DCF /* TKStringTransformers.h in Headers */,
+				37999F48169C296000ED2DCF /* TransformerKit.h in Headers */,
+				37999F4B169C298B00ED2DCF /* TransformerKit-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37235E731662BCCB00F33BF1 /* TransformerKit-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37235E831662BCCC00F33BF1 /* Build configuration list for PBXNativeTarget "TransformerKit-osx" */;
+			buildPhases = (
+				37235E701662BCCB00F33BF1 /* Sources */,
+				37235E711662BCCB00F33BF1 /* Frameworks */,
+				37235E721662BCCB00F33BF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TransformerKit-osx";
+			productName = "KVCMapping-osx";
+			productReference = 37235E741662BCCB00F33BF1 /* libTransformerKit-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		37A80DED150B8CE800B9B6E1 /* TransformerKit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A80E12150B8CE800B9B6E1 /* Build configuration list for PBXNativeTarget "TransformerKit-ios" */;
+			buildPhases = (
+				37A80DEA150B8CE800B9B6E1 /* Sources */,
+				37A80DEB150B8CE800B9B6E1 /* Frameworks */,
+				37A80DEC150B8CE800B9B6E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TransformerKit-ios";
+			productName = KVCMapping;
+			productReference = 37A80DEE150B8CE800B9B6E1 /* libTransformerKit-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A80DE5150B8CE800B9B6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 37A80DE8150B8CE800B9B6E1 /* Build configuration list for PBXProject "TransformerKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37A80DE3150B8CE800B9B6E1;
+			productRefGroup = 37A80DEF150B8CE800B9B6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A80DED150B8CE800B9B6E1 /* TransformerKit-ios */,
+				37235E731662BCCB00F33BF1 /* TransformerKit-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37235E701662BCCB00F33BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37999F3F169C296000ED2DCF /* NSValueTransformer+TransformerKit.m in Sources */,
+				37999F43169C296000ED2DCF /* TKImageTransformers.m in Sources */,
+				37999F47169C296000ED2DCF /* TKStringTransformers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A80DEA150B8CE800B9B6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37999F3E169C296000ED2DCF /* NSValueTransformer+TransformerKit.m in Sources */,
+				37999F42169C296000ED2DCF /* TKImageTransformers.m in Sources */,
+				37999F46169C296000ED2DCF /* TKStringTransformers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37235E811662BCCC00F33BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "TransformerKit-osx";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37235E821662BCCC00F33BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "TransformerKit-osx";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37A80E10150B8CE800B9B6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransformerKit/TransformerKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+			};
+			name = Debug;
+		};
+		37A80E11150B8CE800B9B6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransformerKit/TransformerKit-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A80E13150B8CE800B9B6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "TransformerKit-ios";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37A80E14150B8CE800B9B6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "TransformerKit-ios";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37235E831662BCCC00F33BF1 /* Build configuration list for PBXNativeTarget "TransformerKit-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37235E811662BCCC00F33BF1 /* Debug */,
+				37235E821662BCCC00F33BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A80DE8150B8CE800B9B6E1 /* Build configuration list for PBXProject "TransformerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A80E10150B8CE800B9B6E1 /* Debug */,
+				37A80E11150B8CE800B9B6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A80E12150B8CE800B9B6E1 /* Build configuration list for PBXNativeTarget "TransformerKit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A80E13150B8CE800B9B6E1 /* Debug */,
+				37A80E14150B8CE800B9B6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A80DE5150B8CE800B9B6E1 /* Project object */;
+}
